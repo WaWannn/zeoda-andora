@@ -19,8 +19,8 @@ bot.on('message', function(message) {
     if ( message.content === "!info"){
         message.reply();
     }
-    if ( message.content === "!café"){
-        message.reply("je vous offre un café : :coffee:");
+    if ( message.content === "!chocolat"){
+        message.reply("je vous offre un chocolat bien chaud ^^ : :coffee:");
     }
 });
 
