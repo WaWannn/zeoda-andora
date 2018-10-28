@@ -10,7 +10,7 @@ var questArray = new Array();
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
 
 bot.on('ready' , function() {
-    bot.user.setGame('15:51');
+    bot.user.setGame('15:59');
 });
 
 // Message de bienvenu
