@@ -14,3 +14,12 @@ bot.on('message', function (message) {
         message.channel.send("pong");
     }
 });
+
+bot.on('guildMemberAdd', function (member) {
+    member.createDM().then(function (channel) {
+        channel.send('Bienvenue dans le culte de Zeoda ' + member.displayName );
+    }
+    if ( message.content === "!ping") {
+        message.channel.send("pong");
+    }
+});
