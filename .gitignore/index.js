@@ -7,13 +7,7 @@ const FileSync = require('lowdb/adapters/FileSync')
  
 const adapters = new FileSync('database.json');
 const db = low(adapters);
-
-
-
-
-
-
-
+db.defaults({ histoires : [], xp: []}).write()
 
 
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
@@ -44,16 +38,6 @@ bot.on('message', function (message) {
 });
 
 
-
-
-
-
-
-
-
-
- 
-db.defaults({ histoires : [], xp: []}).write()
  
 bot.on('message', message => {
    
