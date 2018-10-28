@@ -20,10 +20,7 @@ bot.on('guildMemberAdd', function (member) {
 // Liste des quêtes en privées
 bot.on('message', function (message) {
     if ( message.content === "!quete") {
-        message.send("ok");
-        message.send(message.author);
-        message.send( message.author.displayName + " Voici votre liste de quêtes 2:");
-        message.send( message.author.username + " Voici votre liste de quêtes 3:");
+        message.reply( message.author.username + " Voici votre liste de quêtes 3:");
     }
 });
 
