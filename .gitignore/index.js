@@ -9,17 +9,19 @@ bot.on('ready', function(){
 });
 
 
-bot.on('message', function (message) {
-    if ( message.content === "!ping") {
-        message.channel.send("pong");
-    }
-});
-
 bot.on('guildMemberAdd', function (member) {
     member.createDM().then(function (channel) {
         channel.send('Bienvenue dans le culte de Zeoda ' + member.displayName );
-    }
-    if ( message.content === "!ping") {
-        message.channel.send("pong");
+        channel.send('Andora vous envoie une première quête');
+        channel.send('Pour la consulter faites !quete');
     }
 });
+
+// Liste des quêtes en privées
+bot.on('message', function (message) {
+    if ( message.content === "!quete") {
+        message.send( message.author.username + " Voici votre liste de quêtes :");
+    }
+});
+
+
