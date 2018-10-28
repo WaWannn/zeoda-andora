@@ -20,7 +20,7 @@ bot.on('message', function(message) {
         message.reply();
     }
     if ( message.content === "!café){
-        message.reply("je t'offre un petit café :coffee:");
+        message.reply("je vous offre un café : :coffee:");
     }
 });
 
