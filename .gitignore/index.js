@@ -12,7 +12,7 @@ const dbuser = low(adapters);
 
 
 // Connexion
-bot.login("NTA2MTI1OTc3ODUyNzA2ODI3.DrdmLg.p4MLY5T8HgK3vfJJXIFxTvTTtqU");
+bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DreglQ.kLDIGt2N_WIpT-XBWufNt2PuWkE");
 
 
 // Etat du bot
