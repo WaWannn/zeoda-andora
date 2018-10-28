@@ -17,7 +17,7 @@ bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DreglQ.kLDIGt2N_WIpT-XBWufNt2PuWkE");
 
 // Etat du bot
 bot.on('ready' , function() {
-    bot.user.setGame('En contruction');
+    bot.user.setGame('En Ligne');
 });
 
 
