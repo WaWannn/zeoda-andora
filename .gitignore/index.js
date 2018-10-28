@@ -10,8 +10,6 @@ bot.on('ready' , function() {
 
 // Message de bienvenu
 bot.on( 'guildMemberAdd' , function( member) {
-    message.reply('test');
-    message.send('test');
     member.createDM().then(function(channel) {
        return channel.send('Bienvenue dans le culte de Zeoda ' + member.displayName + '. Andora vous a envoyé votre première quete. Pour consulter les quêtes, utilisez la commande !quete');
     });
