@@ -5,7 +5,7 @@ var bot = new Discord.Client();
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
 
 bot.on('ready' , function() {
-    bot.user.setGame('15:09');
+    bot.user.setGame('15:16');
 });
 
 // Message de bienvenu
