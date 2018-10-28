@@ -5,12 +5,12 @@ var bot = new Discord.Client();
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
 
 bot.on('ready' , function() {
-    bot.user.setGame('15:07');
+    bot.user.setGame('15:09');
 });
 
 // Message de bienvenu
 bot.on( 'guildMemberAdd' , function( member) {
-    bot.user.send('Bienvenue dans le culte de Zeoda ' + member.displayName + '. Andora vous a envoyé votre première quete. Pour consulter les quêtes, utilisez la commande !quete');
+    member.guild.channels.find('name', 'accueil').send('Bienvenue dans le culte de Zeoda ' + member.displayName + '. Andora vous a envoyé votre première quete. Pour consulter les quêtes, utilisez la commande !quete')
 });
 
 
