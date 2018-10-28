@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 var bot = new Discord.Client();
 
 bot.on("ready", function(){
-    bot.user.setGame("Zedoa, !help");
+    bot.user.setGame("en Construction!!!");
     console.log("Le bot a bien été connecte");
 });
 
