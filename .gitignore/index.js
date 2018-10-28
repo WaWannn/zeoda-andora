@@ -8,14 +8,3 @@ bot.on("ready", function(){
     bot.user.setGame("Upload 12:31");
     console.log("Le bot a bien été connecte");
 });
-
-
-bot.on('message', message => {
-    id ( message.content === prefix + "help"){
-        message.channel.sendMessage("Liste des commandes : \n -*help");
-    }
-    if ( message.content === "salut"){
-        message.reply("Bien le bonjour!!!!");
-        console.log("ok");
-    }
-});
