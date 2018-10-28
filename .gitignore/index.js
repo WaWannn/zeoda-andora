@@ -6,7 +6,7 @@ var level = new Array();
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
 
 bot.on('ready' , function() {
-    bot.user.setGame('15:31');
+    bot.user.setGame('15:34');
 });
 
 // Message de bienvenu
@@ -21,7 +21,7 @@ bot.on( 'guildMemberAdd' , function( member) {
 // Liste des quêtes
 bot.on('message', function (message) {
     if ( message.content === "!quete") {
-        message.guild.channel.send( message.author.username + ' Voici votre liste de quêtes :');
+        message.reply('Voici votre liste de quêtes :');
     }
 });
 
