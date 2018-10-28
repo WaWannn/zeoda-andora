@@ -21,7 +21,7 @@ bot.on( 'guildMemberAdd' , function( member) {
 // Liste des quêtes
 bot.on('message', function (message) {
     if ( message.content === "!quete") {
-        message.send( message.author.username + ' Voici votre liste de quêtes :');
+        message.guild.channel.send( message.author.username + ' Voici votre liste de quêtes :');
     }
 });
 
