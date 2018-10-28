@@ -24,6 +24,6 @@ bot.on('message', function(message) {
 // Liste des quêtes
 bot.on('message', function (message) {
     if ( message.content === "!quete") {
-        message.reply('Aucune quête n`est disponnible pour le moment');
+        message.reply('Aucune quête n`est disponnible pour le moment. Revenez plus tard');
     }
 });
