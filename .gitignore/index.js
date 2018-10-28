@@ -13,7 +13,7 @@ db.defaults({ histoires : [], xp: []}).write()
 bot.login("NTA2MDQ5NzE4MDk1MzE0OTQ0.DrcnZg.LI-WiAaI8A7-gZrcFNWFSLGGELI");
 
 bot.on('ready' , function() {
-    bot.user.setGame('16:07');
+    bot.user.setGame('16:17');
 });
 
 // Message de bienvenu
@@ -38,7 +38,6 @@ bot.on('message', function (message) {
 });
 
 
- 
 bot.on('message', message => {
    
     var msgauthor = message.author.id
