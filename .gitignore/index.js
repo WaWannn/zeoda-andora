@@ -19,7 +19,12 @@ bot.on('message', function(message) {
     if ( message.content === "!info"){
         message.reply();
     }
+    if ( message.content === "!café){
+        message.reply("je t'offre un petit café :coffee:");
+    }
 });
+
+
 
 // Liste des quêtes
 bot.on('message', function (message) {
